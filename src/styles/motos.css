@@ -141,3 +141,39 @@ h1 {
   text-decoration: underline;
 }
 
+
+
+/* Estilos para el botón de volver */
+.btn-main {
+  background-color: #ff5722; /* Color de fondo naranja */
+  color: white; /* Color del texto */
+  border: none; /* Sin borde */
+  padding: 10px 20px; /* Espaciado interno */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  border-radius: 5px; /* Bordes redondeados */
+  text-decoration: none; /* Sin subrayado de enlace */
+}
+
+/* Estilos al pasar el cursor sobre el botón */
+.btn-main:hover {
+  background-color: #ff783c; /* Cambia el color de fondo al pasar el cursor */
+}
+
+
+/* Estilos para el navbar */
+.navbar {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* Estilos para el logotipo */
+.logo img {
+  width: 100px;
+  height: auto;
+}
+

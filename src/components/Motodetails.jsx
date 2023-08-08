@@ -1,5 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import "../styles/motos.css"
 
 function Motodetails({motos}) {
     const {id} = useParams()
@@ -19,6 +21,12 @@ function Motodetails({motos}) {
         <h2>Modelo: {moto.modelo}</h2>
         <p>Descripción: {moto.descripcion}</p>
         <p>Precio: ${moto.precio}</p>
+        <Link to="/">
+          <button className='btn-main'>Explora más motos 🛵</button>
+          
+        </Link>
+        <br />
+        <br />
         
   </div>
   )

@@ -5,6 +5,7 @@ import { fetchMotos } from './api/MotosList';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import Navbar from './components/Navbar';
 import "./styles/motos.css"
 
 const App = () => {
@@ -56,6 +57,7 @@ const App = () => {
           {/* Ruta para la lista de motos */}
           <Route path="/" element={
             <>
+            <Navbar/>
               <h1>Lista de motos</h1>
               <input
                 className="form-control inputBuscar"
